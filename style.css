@@ -1,0 +1,133 @@
+/* Estilos e posicionamento*/
+
+body{
+    background-color: #131325;
+    float: center;
+}
+
+#Wave{
+    width: 400;
+    height: 179px;
+    padding: 0%;
+    margin: 0%;
+    rotate: 180deg;
+    width: fixed;
+    margin-bottom: 10px;
+}
+
+.center{
+    margin: 0px auto;
+    width: 800px;
+    height: 1350px;
+    background-image: linear-gradient(#1b1b29, #313152);
+    background-repeat: no-repeat;
+    float: center;
+}
+
+/* ------------ Painel Sobre mim ------------ */
+
+.Perfil{
+    float: left;
+    width: 260px;
+    height: 436px;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+/* -------------------- Educação ----------------------*/
+
+.Educacao{
+    float: left;
+    width: 400px;
+    height: 100px;
+    font-family: 'Inter', 'Semi Bold 500';
+    text-align: center;
+    text-shadow: 3px 3px 3px  #1b1b29;
+    margin-bottom: 200px;
+    padding-top: 15px;
+}
+
+#imgEducacao{
+    width: 262px;
+    height: 28px;
+    float: center;
+}
+
+#listaEducacao{
+    font-family: 'Inter', 'Semi Bold 500';
+    color: white;
+    font-size: 25px;
+    float: left;
+    text-align: left;
+}
+
+/* ------- Experiência ---------*/
+
+.Experiencia{
+    float: left;
+    width: 400px;
+    height: 100px;
+    font-family: 'Inter', 'Semi Bold 500';
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+#imgExperiencia{
+    width: 262px;
+    height: 28px;
+    float: center;
+}
+
+#listaExperiencia{
+    font-family: 'Inter', 'Semi Bold 500';
+    color: white;
+    font-size: 25px;
+    float: left;
+    text-align: left;
+}
+
+/* --------------- Contato ----------------*/
+
+#Contato{
+    float: right;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+#Email{
+    float: left;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+#LinkedIn{
+    float: left;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#Twitter{
+    float: left;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* --------------- Habilidades ------------------ */
+
+#pngHabilidades{
+    margin: 40px;
+    margin-left: 50px;
+    float: left;
+    padding-top: 15px;
+}
+
+#pngGraficos{
+    margin: 20px;
+    float: left;
+    margin-left: 50px;
+}
